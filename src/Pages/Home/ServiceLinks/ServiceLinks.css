@@ -1,0 +1,190 @@
+.Geotechnical-links-bg {
+  background-image: url("https://media.istockphoto.com/id/1145896814/photo/soil-fertility-analysis-female-agronomist-taking-soil-samples.jpg?s=1024x1024&w=is&k=20&c=lBP6FMwERvZ8rAr-V82hKRRKdwxEuRjaMJDn_kUUJb0=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+.link-row {
+  height: 70vh;
+}
+.custom-font {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 4rem;
+  line-height: 6rem;
+}
+.card-links-container {
+  padding: 50px 15px;
+  background-color: #f4f6f9;
+  border-radius: 10px;
+}
+.links-heading h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #003366;
+  margin-bottom: 20px;
+  text-align: left;
+  line-height: 1.2;
+}
+.links-paragraph {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+/* Quotation Form Container */
+.quotation-form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  margin-top: 30px;
+  border: 1px solid #ececec;
+}
+
+/* Form Heading */
+.form-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #003366; /* Dark Blue */
+  margin-bottom: 20px;
+}
+
+/* Form Description */
+.form-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Form Inputs */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  border-color: #003366; /* Dark Blue */
+  outline: none;
+}
+
+/* Submit Button */
+.btn-primary {
+  background-color: #f16704;
+  color: #fff;
+  padding: 8px 25px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+  color: #fff;
+}
+.background-color {
+  background-color: #333;
+  width: 100%;
+  height: 20vh;
+  margin-top: 5rem;
+}
+
+/* Managements css */
+.managements-links-bg {
+  background-image: url("https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+.Management-fonts {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5rem;
+}
+.LabTesting-links-bg {
+  background-image: url("https://images.unsplash.com/photo-1606206605628-0a09580d44a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+.Material-links-bg {
+  background-image: url("https://plus.unsplash.com/premium_photo-1677610856270-49baa069d3c3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDUzfHx8ZW58MHx8fHx8");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+.QualityAssurance-links-bg {
+  background-image: url(" https://ngsgroup.ca/wp-content/uploads/2024/09/view-hills-sunny-day.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+@media (max-width: 576px) {
+  .Geotechnical-links-bg {
+    height: 50vh;
+  }
+  .link-row {
+    height: 45vh;
+  }
+  .custom-font {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  /* managements css */
+  .managements-links-bg {
+    height: 40vh;
+  }
+  .custom-font {
+    font-size: 2rem !important;
+  }
+  /* lab testing css bg*/
+  .LabTesting-links-bg {
+    height: 40vh;
+  }
+  /* material testing css bg */
+  .Material-links-bg {
+    height: 40vh;
+  }
+  /* qualitly assurnce css bg */
+  .QualityAssurance-links-bg { 
+    height: 40vh;
+  }
+  .links-heading h1 {
+    font-size: 1.4rem;
+  }
+
+  .links-paragraph {
+    font-size: 1rem;
+  }
+  .quotation-form-container {
+    padding: 20px;
+  }
+
+  .form-heading {
+    font-size: 1.5rem;
+  }
+
+  .form-description {
+    font-size: 0.9rem;
+  }
+
+  .form-input {
+    font-size: 0.9rem;
+  }
+
+  .btn-primary {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,864 @@
+.bg-Home {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/09/image-29.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.Home-tag h1 {
+  text-align: start;
+  font-size: 73px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  padding-left: 40px;
+}
+.Home-btn {
+  width: 200px;
+  height: 50px;
+  border: 0;
+  background-color: #f16704;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.Home-btn:hover {
+  background-color: black;
+}
+
+/* Card section CSS */
+.Services-text {
+  font-size: 28px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.services-paragraph {
+  font-size: 46px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.service-card {
+  transition: all 0.6s ease;
+  background-color: #2a3335;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100% !important;
+  position: relative;
+}
+.service-card:hover {
+  background-color: #f16704;
+  transform: translateY(-7px);
+}
+
+/* Card icon styles */
+.card-icon {
+  font-size: 60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 10%;
+  background-color: #f16704;
+  color: white;
+  padding: 15px;
+  transition: all 0.6s ease;
+  position: absolute;
+  top: 0px;
+  left: 15%;
+  transform: translateX(-50%);
+}
+
+.service-card:hover .card-icon {
+  background-color: #2a3335;
+  color: #ffff;
+  transform: translateX(-50%) scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Card body text styling */
+.service-body {
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-top: 10px;
+}
+
+.service-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Poppins", sans-serif;
+}
+.bg-Sector {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/09/image-28-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150vh;
+}
+
+.Sectors-row {
+  background-color: rgba(55, 55, 55, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  height: 140vh; /* Reduced height to decrease space */
+}
+
+/* Section Title */
+.section-title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  margin-top: 5%; /* Reduced margin-top */
+  padding-left: 10%; /* Reduced padding-left */
+  font-family: "Anton", Sans-serif;
+}
+
+/* Section Description */
+.section-description {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px; /* Reduced margin-bottom */
+  margin-top: 1%; /* Reduced margin-top */
+  padding-left: 8%; /* Reduced padding-left */
+  padding-right: 8%; /* Reduced padding-right */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Sector Card with Shadow */
+.sector-card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 25vh; /* Reduced card height */
+  background-color: rgba(55, 55, 55, 0.85);
+}
+
+/* Sector Title */
+.sector-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Anton", Sans-serif;
+}
+
+.sector-icon {
+  color: #f16704;
+  font-size: 3rem;
+  vertical-align: sub;
+}
+
+/* Sector Description */
+.sector-description {
+  font-size: 14px;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10%; /* Reduced padding-left */
+}
+
+/* about css */
+.bg-about {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Rectangle-14-7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 75%;
+  height: 75vh;
+  margin-left: 10vh;
+  margin-right: auto;
+  margin-top: 15vh;
+}
+
+.About-Container {
+  width: 190vh;
+  padding-top: 5%;
+}
+.about-us-img {
+  width: 80%;
+  height: 45vh;
+}
+.About-title {
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+}
+.About-text-h3 h3 {
+  font-size: 2rem;
+  color: white;
+  line-height: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.About-paragraph {
+  font-family: "PT Sans", Sans-serif;
+  font-size: 14px;
+  color: #fff;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.border-line {
+  border-left: 2px solid white;
+  padding-left: 20px;
+  height: 50vh;
+}
+
+/* Background image section */
+.bg-about-img {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Rectangle-14-7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150vh;
+  margin-top: 10%;
+}
+
+/* Title style */
+.About-card-title {
+  font-size: 2rem;
+  font-family: "Anton", Sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+}
+
+.Showcasing h1 {
+  font-family: "Anton", Sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 4.4rem;
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #fff;
+}
+
+.about-description {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+/* Button Style */
+.learn-more-btn {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 12px 25px;
+  border: 0;
+  background-color: #f16704;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.learn-more-btn:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* Card styling */
+.about-card {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid white;
+  height: 40vh;
+}
+
+/* Button styling */
+.Learn-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #f16704;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.about-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.5rem;
+}
+.About-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.Learn-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.card-border {
+  border: 10px solid black;
+  margin-top: 10%;
+}
+
+/* large screen media query */
+@media (max-width: 1024px) {
+  .bg-Home {
+    height: 100vh;
+  }
+  .Home-tag h1 {
+    font-size: 44px;
+  }
+
+  /* cards media query */
+  .service-card {
+    height: 65vh;
+    padding: 10px;
+    width: 63vh;
+  }
+  .card-icon {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    color: white;
+    padding: 10px;
+    top: 0px;
+    left: 14%;
+  }
+  /* Card body text styling */
+  .service-body {
+    padding-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  .service-text {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "Poppins", sans-serif;
+  }
+  .read-more-btn {
+    font-size: 14px;
+  }
+  /* Sector work media query css */
+  .bg-Sector {
+    height: 160vh;
+  }
+
+  .Sectors-row {
+    height: 158vh;
+  }
+  /* Section Title */
+  .section-title h1 {
+    font-size: 2.2rem;
+    margin-top: 6%;
+  }
+
+  /* Section Description */
+  .section-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  /* Sector Title */
+  .sector-title {
+    font-size: 14px;
+  }
+  .sector-icon {
+    color: #f16704;
+    font-size: 2rem;
+  }
+
+  /* Sector Description */
+  .sector-description {
+    font-size: 10px;
+  }
+
+  /* About css */
+  .bg-about {
+    width: 70%;
+    height: 80vh;
+    margin-top: 10vh;
+  }
+  .About-Container {
+    width: 190vh;
+    padding-top: 2%;
+  }
+  .about-us-img .img {
+    width: 100%;
+    height: 50vh;
+  }
+  .About-title {
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: white;
+  }
+  .About-text-h3 h3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: #fff;
+  }
+
+  .About-paragraph {
+    font-family: "PT Sans", Sans-serif;
+    font-size: 10px;
+    color: #fff;
+    padding-top: 10px;
+    text-align: justify;
+  }
+
+  .border-line {
+    border-left: 2px solid white;
+    padding-left: 20px;
+    height: 65vh;
+  }
+
+  /* Background image section */
+  .bg-about-img {
+    height: 170vh;
+    margin-top: 10%;
+  }
+  /* Title style */
+  .About-card-title {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+  }
+
+  .Showcasing h1 {
+    font-family: "Anton", Sans-serif;
+    font-size: 2.3rem;
+  }
+
+  .about-description {
+    font-family: "PT Sans", sans-serif;
+    font-size: 1rem;
+  }
+
+  /* Button Style */
+  .learn-more-btn {
+    font-family: "PT Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+  }
+  .about-card {
+    position: relative;
+    overflow: hidden;
+    border: 3px solid white;
+    height: 40vh;
+    font-size: 14px;
+  }
+
+  /* Button styling */
+  .Learn-btn {
+    margin-top: 8px;
+    padding: 6px 16px;
+    font-size: 1rem;
+  }
+  .about-title {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 1rem;
+  }
+  .About-text {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+  }
+  .Learn-btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  /* NGS card query */
+  .NGS-card-text {
+    font-size: 12px;
+  }
+  .NGS-card-title h5 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .NGS-card-title span {
+    font-size: 14px;
+  }
+  .card-border {
+    border: 8px solid black;
+    margin-top: 6%;
+  }
+}
+
+/* mobile screen media query */
+@media (max-width: 768px) {
+  .bg-Home {
+    height: 80vh;
+  }
+  .Home-tag h1 {
+    font-size: 33px;
+  }
+  .Home-btn {
+    width: 140px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .Services-text {
+    font-size: 22px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .services-paragraph {
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .service-card {
+    height: 55vh;
+    padding: 10px;
+    width: 45vh;
+  }
+  .card-icon {
+    font-size: 15px;
+    width: 60px;
+    height: 50px;
+    color: white;
+    padding: 8px;
+    top: 0px;
+    left: 18%;
+  }
+  /* Card body text styling */
+  .service-body {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .service-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    padding-top: 10px;
+  }
+
+  .service-text {
+    font-size: 12px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "Poppins", sans-serif;
+  }
+  .read-more-btn {
+    font-size: 12px;
+  }
+  /* sectors media query section */
+  .bg-Sector {
+    height: 140vh;
+  }
+  .Sectors-row {
+    height: 136vh;
+  }
+  .section-title h1 {
+    font-size: 1.5rem;
+    margin-top: 6%;
+  }
+  .section-description {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 2%;
+  }
+  .sector-title {
+    font-size: 12px;
+  }
+  .sector-icon {
+    color: #f16704;
+    font-size: 1.5rem;
+  }
+  .sector-description {
+    font-size: 8px;
+  }
+  .sector-card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 25vh;
+  }
+  /* About css */
+  .bg-about {
+    width: 75%;
+    height: 70vh;
+    margin-top: 10vh;
+  }
+  .About-Container {
+    width: 160vh;
+    padding-top: 2%;
+  }
+  .About-title {
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: white;
+  }
+  .About-text-h3 h3 {
+    font-size: 14px;
+    line-height: 1.3rem;
+    color: #ffff;
+  }
+  .about-us-img   {
+    width: 50vh !important;
+    height:40vh;
+    margin-top: 10% !important;
+  }
+
+  .About-paragraph {
+    font-family: "PT Sans", Sans-serif;
+    font-size: 8px;
+    color: #fff;
+    padding-top: 2px;
+    text-align: justify;
+  }
+
+  .border-line {
+    border-left: 1px solid white;
+    padding-left: 20px;
+    height: 55vh;
+  }
+
+  /* Background image section */
+  .bg-about-img {
+    height: 150vh;
+    margin-top: 10%;
+  }
+  .About-card-title {
+    font-size: 1.2rem;
+  }
+  .Showcasing h1 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 10px;
+  }
+  .about-description {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  .learn-more-btn {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+  .about-card {
+    height: 32vh;
+    font-size: 10px;
+  }
+  .Learn-btn {
+    margin-top: 0px;
+    padding: 2px 8px;
+    font-size: 10px;
+  }
+  .about-title {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+  /* NGS card query */
+  .NGS-card-text {
+    font-size: 10px;
+  }
+  .NGS-card-title {
+    font-size: 12px;
+    margin-top: 6px;
+  }
+  .NGS-card-text {
+    font-size: 10px;
+  }
+  .card-border {
+    border: 5px solid black;
+    margin-top: 4%;
+  }
+}
+
+/* extra sm mobile screen media query  */
+@media (max-width: 576px) {
+  .bg-Home {
+    height: 40vh;
+  }
+  .Home-tag h1 {
+    font-size: 22px;
+    padding-left: 0%;
+  }
+  .Home-btn {
+    width: 140px;
+    height: 35px;
+    font-size: 12px;
+  }
+  .Services-text {
+    font-size: 14px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-left: 30px;
+  }
+  .services-paragraph {
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  .service-card {
+    height: 40vh;
+    width: 60vh;
+  }
+  .card-icon {
+    font-size: 15px;
+    width: 60px;
+    height: 50px;
+    color: white;
+    padding: 8px;
+    top: 0px;
+    left: 10%;
+  }
+  /* sectors media query css */
+  .bg-Sector {
+    height: 164vh;
+    width: 100%;
+  }
+  .Sectors-row {
+    height: 142vh;
+    width: 90%;
+    margin-right: 16px;
+     
+  }
+  .section-title h1 {
+    font-size: 14px;
+    margin-top: 4%;
+  }
+  .section-description {
+    font-size: 8px;
+    margin-bottom: 0px !important;
+    margin-top: 0% !important;
+  }
+  .sector-title {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+  .sector-icon {
+    color: #f16704;
+    font-size: 1rem;
+  }
+  .sector-description {
+    font-size: 7px ;
+    padding-left: 18px;
+     
+  }
+  .sector-card {
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 16vh;
+    padding: 0px;
+  }
+
+  /* About css */
+  .bg-about {
+    width: 100%;
+    height: 110vh;
+    margin-top: 10vh;
+    align-self: start !important;
+    padding: 0px;
+    margin: 0px;
+  }
+  .About-Container {
+    width: 100% !important;
+    padding-top: 5px !important;
+    margin-top: 2%;
+    
+  }
+  .about-us-img   {
+    width: 100% !important;
+    height:40vh;
+    margin-top: 20% !important;
+  }
+  .About-title {
+    font-size: 10px !important;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: white;
+  }
+  .About-text-h3 h3 {
+    font-size: 12px;
+    padding-left: 0%;
+    color: #fff;
+    
+  }
+
+  .About-paragraph {
+    font-family: "PT Sans", Sans-serif;
+    font-size: 8px;
+    color: #fff;
+    padding-bottom: 15px;
+    padding-top: 8px;
+    text-align: justify;
+  }
+  .border-line {
+    border-top: 1px solid white;
+    border-left: 0;
+    padding-left: 10px;
+    height: 10vh;
+  }
+    
+  /* Background image section */
+  .bg-about-img {
+    height: 255vh !important;
+    margin-top: 10%; 
+  }
+  .About-card-title {
+    font-size: 10px;
+  }
+  .Showcasing h1 {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    
+  }
+  .about-description {
+    font-size: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    justify-content: center;
+    margin-bottom: 0%;
+  }
+  .learn-more-btn {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 5px 10px;
+    margin-left: 30px;
+    display: block;
+    justify-content: center;
+  }
+  .about-card {
+    height: 30vh;
+    font-size: 8px;
+     margin: 5px;
+  }
+  .Learn-btn {
+    margin-top: 4px;
+    padding: 2px 8px;
+    font-size: 8px;
+  }
+  .about-title {
+    font-size: 14px;
+  }
+   .About-text {
+    font-size: 10px;
+    text-align: center;
+   }
+  .NGS-img {
+    display: block;
+    justify-content: center;
+  }
+}

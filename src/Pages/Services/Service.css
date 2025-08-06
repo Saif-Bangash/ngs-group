@@ -1,0 +1,38 @@
+.bg-service {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/09/image-33.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.service-row {
+  height: 100vh;
+}
+/* project background css */
+.project-back-img {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/09/soil-texture-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.project-row {
+  height: 70vh;
+}
+
+@media (max-width: 576px) {
+  .bg-service {
+    height: 40vh;
+  }
+  .service-row{
+    height: 50vh;
+  }
+  
+  .project-back-img {
+    height: 50vh;
+  }
+  .project-row {
+    height: 40vh;
+  }
+}

@@ -1,0 +1,164 @@
+.ecopower-bg {
+  background-image: url("https://images.unsplash.com/photo-1739382120673-54ec4d63dc62?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.ecopower-row {
+  height: 70vh;
+}
+
+.ecopower-heading {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  line-height: 6rem;
+}
+
+/* greenfield css bg */
+.greenfield-bg {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Rectangle-19-1-e1725864217931.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+.greenfield-heading {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3.5rem;
+  line-height: 5rem;
+}
+.urban-bg {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Rectangle-20-3-e1725864183645.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.government-bg {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Rectangle-21-e1725864150501.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.oilrig-bg {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Rectangle-22-5-e1725864080527.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.mining-bg {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/09/Rectangle-23-4-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+.bg-Overview {
+  background-color: #333333;
+}
+
+.Overview-heading {
+  font-family: "Anton", Sans-serif;
+  font-size: 3rem;
+}
+
+.Project-text {
+  font-family: "Anton", Sans-serif;
+  font-size: 1.8rem;
+}
+
+.Overview-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.goal-item-heading {
+  font-family: "Anton", Sans-serif;
+  font-size: 18px;
+}
+
+.Project-goals-heading {
+  font-size: 22px;
+  font-family: "Anton", Sans-serif;
+}
+
+.project-goal-text {
+  font-family: "Anton", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  width: 50%;
+}
+
+.card-heading {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+}
+
+@media (max-width: 576px) {
+  .ecopower-bg {
+    height: 40vh;
+  }
+
+  .ecopower-row {
+    height: 40vh;
+  }
+
+  .ecopower-heading {
+    font-size: 1.5rem;
+    line-height: 4rem;
+  }
+
+  .Overview-heading {
+    font-size: 1.5rem;
+  }
+  .Overview-text {
+    font-size: small;
+  }
+
+  .Project-text {
+    font-size: 1.3rem;
+  }
+
+  .goal-item-heading {
+    font-size: 14px;
+  }
+
+  .Project-goals-heading {
+    font-size: 18px;
+  }
+
+  .project-goal-text {
+    font-size: 16px;
+    width: 80%;
+  }
+
+  .card-heading {
+    font-size: 18px;
+  }
+
+  /* greenfield css media query */
+  .greenfield-bg {
+    height: 40vh;
+  }
+  .greenfield-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  /* urban-bg img */
+  .urban-bg {
+    height: 40vh;
+  }
+  /* government img css  */
+
+  .government-bg {
+    height: 40vh;
+  }
+  /* oilrig-bg imgs */
+  .oilrig-bg {
+    height: 40vh;
+  }
+  /* mining-bg  img */
+  .mining-bg {
+    height: 40vh;
+  }
+}

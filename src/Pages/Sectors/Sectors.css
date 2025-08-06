@@ -1,0 +1,317 @@
+/* Background Image Styling for Sections */
+.sectors-background-image {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Untitled-2024-08-21T172732.459.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.Sectors-btn {
+  width: 200px;
+  height: 50px;
+  border: 0;
+  background-color: #f16704;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.Sectors-btn:hover {
+  background-color: #000;
+  color: white;
+}
+
+.Sectors-element {
+  margin-top: 10%;
+}
+
+.Sectors-tag {
+  text-align: start;
+  font-size: 73px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  padding-left: 40px;
+}
+
+.background-Expert {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Rectangle-14-7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 75%;
+  height: 65vh;
+  margin-left: 10vh;
+  margin-right: auto;
+  margin-top: 15vh;
+}
+
+.Expert-Container {
+  width: 190vh !important;
+  padding-top: 5%;
+}
+
+.Expert-title h6 {
+  font-size: 42px;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.Expert-text .Paragraph {
+  font-family: "PT Sans", Sans-serif;
+  font-size: 14px;
+  color: #fff;
+  text-align: justify;
+}
+
+.contact-btn {
+  width: 150px;
+  height: 40px;
+  border: 0;
+  background-color: #f16704;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Background Card Image */
+.background-card-img {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Rectangle-14-7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 120vh;
+}
+
+/* Title for Sectors */
+.Sectors-title {
+  text-align: start;
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+  padding-left: 40px;
+}
+
+.Sectors-text {
+  font-family: "PT Sans", Sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 5%;
+  padding-right: 2%;
+}
+
+/* Cards CSS */
+.Commercial-card {
+  background-color: #5b5d5f;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Commercial-card:hover {
+  transform: translateY(-10px);
+}
+.Commercial-img {
+  width: 15%;
+  height: auto;
+}
+
+.Commercial-body {
+  flex-grow: 1;
+}
+
+.Commercial-title h3 {
+  font-size: 2rem !important;
+  font-family: "Anton", Sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+  color: white;
+}
+
+/* Card text */
+.Commercial-text p {
+  font-size: 1rem;
+  color: #6c757d;
+  color: white !important;
+  font-family: "PT Sans", Sans-serif;
+}
+
+/* For Screens smaller than 576px */
+@media (max-width: 576px) {
+  .sectors-background-image {
+    height: 40vh !important;
+  }
+  .Sectors-tag {
+    font-size: 30px !important;
+    padding-left: 0% !important;
+  }
+  .Sectors-btn {
+    width: 130px !important;
+    height: 30px !important;
+    font-size: 16px;
+  }
+
+  .background-Expert {
+    width: 100%;
+    height: 85vh !important;
+    margin-left: 0%;
+    margin-top: 20px;
+  }
+  .Expert-Container {
+    width: 100% !important;
+    padding-top: 5%;
+  }
+  .Expert-img {
+    height: 40vh;
+  }
+  .Expert-title h6 {
+    font-size: 10px !important;
+    line-height: 1.5rem;
+  }
+
+  .Expert-text .Paragraph {
+    font-size: 10px;
+  }
+  .contact-btn {
+    width: 100px !important;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .background-card-img {
+    width: 100%;
+    height: 240vh !important;
+    margin-top: 10%;
+  }
+  .Sectors-title {
+    font-size: 14px !important;
+  }
+
+  .Sectors-text {
+    font-size: 8px !important;
+  }
+  .Commercial-card {
+    width: 100%;
+    height: 30vh !important;
+     margin-top: 10px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+  }
+  .Commercial-img {
+    width: 50% !important;
+    height: auto;
+     
+  }
+
+  .Commercial-title {
+    font-size: 1rem !important;
+  }
+
+  .Commercial-text {
+    font-size: 12px;
+  }
+}
+
+/* For Screens smaller than 768px */
+@media (max-width: 768px) {
+  .sectors-background-image {
+    height: 55vh;
+  }
+  .Sectors-tag {
+    font-size: 30px !important;
+  }
+  .Sectors-btn {
+    width: 180px !important;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .Expert-title h6 {
+    font-size: 1rem !important;
+    line-height: 1.5rem;
+  }
+
+  .Expert-text .Paragraph {
+    font-size: 10px;
+  }
+
+  .Sectors-title {
+    font-size: 1.5rem !important;
+  }
+
+  .Sectors-text {
+    font-size: 10px !important;
+  }
+
+  /* .background-card-img {
+    width: 100%;
+    height: 130vh !important;
+  } */
+
+  /* .Commercial-card {
+    width: 100%;
+    height: 40vh !important;
+    padding-top: 0px;
+  } */
+  /* .Commercial-img {
+    width: 15% !important;
+    height: auto;
+  } */
+
+  .Commercial-title {
+    font-size: 1rem !important;
+  }
+
+  .Commercial-text {
+    font-size: 12px;
+  }
+}
+
+/* For Screens smaller than 1024px */
+@media (max-width: 1024px) {
+  .Sectors-tag {
+    font-size: 40px;
+    padding-left: 30px;
+  }
+
+ 
+  .Sectors-title {
+    font-size: 2rem;
+  }
+
+  .Sectors-text {
+    font-size: 12px !important;
+  }
+  /* .Commercial-card {
+    width: 100%;
+    height: 35vh !important;
+    padding-top: 0%;
+     
+  } */
+  .Commercial-img {
+    width: 10%;
+    height: auto;
+  }
+
+  .Commercial-title {
+    font-size: 14px !important;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .Commercial-text {
+    font-size: 10px !important;
+  }
+}

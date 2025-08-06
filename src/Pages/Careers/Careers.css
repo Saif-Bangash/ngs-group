@@ -1,0 +1,282 @@
+.bg-careers {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Untitled-2024-08-21T171326.232.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.career-row {
+  height: 70vh;
+}
+.career-img {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/08/Rectangle-14-7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 75%;
+  height: 75vh;
+  margin-left: 10vh;
+  margin-right: auto;
+  margin-top: 15vh;
+}
+
+.Career-Container {
+  width: 190vh;
+  padding-top: 5%;
+}
+.career-heading {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.career-title h1 {
+  text-align: start;
+  font-size: 53px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: white;
+}
+
+.career-paragraph {
+  font-size: 14px;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+}
+
+.careers-btn {
+  width: 200px;
+  height: 50px;
+  border: 0;
+  background-color: #f16704;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.careers-btn:hover {
+  background-color: #000;
+  color: white;
+}
+
+.Current-background {
+  background-image: url("https://ngsgroup.ca/wp-content/uploads/2024/09/Untitled-2024-09-09T125822.422.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+}
+
+.ulCareer {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Job Listings Section */
+.joblinks-bg {
+  background-image: url(" https://images.unsplash.com/photo-1733063926938-70a9b1766557?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDk5fHx8ZW58MHx8fHx8");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.job-listings {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.job-listings h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* Job Card Styles */
+.job-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.job-card h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.job-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.job-card .btn {
+  background-color: #f16704;
+  color: white;
+  width: 100%;
+  height: 30px;
+  font-size: small;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 10%;
+}
+
+.job-card .btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* For Screens smaller than 576px */
+@media (max-width: 576px) {
+  .bg-careers {
+    height: 50vh !important; /* Adjust height for medium-sized screens */
+  }
+  .career-row {
+    height: 30vh; /* Adjust row height */
+  }
+
+  .career-img {
+    width: 100% !important;
+    height: 110vh !important;
+    margin-left: 0 !important;
+    margin-top: 5vh !important;
+  }
+
+  .Career-Container {
+    width: 100% !important;
+    padding-top: 5px !important;
+    margin-top: 2%;
+  }
+
+  .career-title {
+    font-size: 16px !important; /* Reduce title size */
+  }
+
+  .career-paragraph {
+    font-size: 12px !important; /* Reduce paragraph font size */
+  }
+
+  .careers-btn {
+    width: 150px !important; /* Adjust button width */
+    height: 40px !important; /* Adjust button height */
+    font-size: 14px !important; /* Adjust font size */
+  }
+  .careers-ngs-img {
+    width: 50vh;
+    height: 45vh;
+    padding-top: 10px;
+  }
+  .Current-background {
+    height: 60vh !important; /* Adjust background image height */
+  }
+
+  .ulCareer {
+    font-size: 12px !important; /* Adjust list font size */
+  }
+
+/* jobs links css media query */
+  .joblinks-bg {
+    height: 40vh;
+  }
+  .hero-section h1 {
+    font-size: 2rem; 
+  }
+  .job-listings h2 {
+    font-size: 1.4rem; 
+  }
+}
+
+/* For Screens smaller than 768px */
+@media (max-width: 768px) {
+  .bg-careers {
+    height: 50vh !important;
+  }
+
+  .career-row {
+    height: 50vh;
+  }
+
+  .career-title {
+    font-size: 20px !important; /* Adjust title size */
+  }
+
+  .career-paragraph {
+    font-size: 10px !important; /* Adjust paragraph font size */
+  }
+
+  .careers-btn {
+    width: 180px !important; /* Adjust button width */
+    height: 45px !important; /* Adjust button height */
+    font-size: 15px !important; /* Adjust font size */
+  }
+
+  .Current-background {
+    height: 70vh !important; /* Adjust background image height */
+  }
+  .career-card {
+    height: 80vh !important;
+    width: 100%;
+    margin-top: 10%;
+    padding: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  /* .bg-careers {
+    height: 80vh;  
+  } */
+
+  /* .career-row {
+    height: 65vh;
+  } */
+
+  .Career-Container {
+    width: 190vh;
+  }
+  .career-heading h1 {
+    font-size: 22px !important;
+  }
+  .Careers-paragraph p {
+    font-size: 12px !important;
+  }
+  .career-title h1 {
+    font-size: 20px !important; /* Adjust title size */
+  }
+
+  .career-paragraph {
+    font-size: 10px !important; /* Adjust paragraph font size */
+  }
+
+  .careers-btn {
+    width: 180px !important; /* Adjust button width */
+    height: 45px !important; /* Adjust button height */
+    font-size: 15px !important; /* Adjust font size */
+  }
+
+  .Current-background {
+    height: 100vh !important; /* Adjust background image height */
+  }
+  .career-card {
+    height: 100vh;
+  }
+}
