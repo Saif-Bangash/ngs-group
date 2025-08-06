@@ -7,7 +7,7 @@
 ## 📸 Screenshots
 | Home Page | Responsive View |
 |-----------|-----------------|
-<img src="src/assets/Screenshot 2025-08-06 222043.png" width="300" /> | <img src="src/assets/Screenshot 2025-08-06 223856.png" width="300" /> |
+<img src="src/assets/Screenshot 2025-08-06 222043.png" width="1000" /> | <img src="src/assets/Screenshot 2025-08-06 223856.png" width="300" /> |
 
 
 ## 🧱 Technologies Used
